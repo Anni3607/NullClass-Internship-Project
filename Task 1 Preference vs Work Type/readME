@@ -1,0 +1,29 @@
+# Task 1 – Preference vs Work Type 
+
+### Objective
+Draw a chart between Preference and Work Type (Intern) with filters:
+- Work Type = Intern
+- Latitude < 10
+- County does not start with A, B, C, or D
+- Job Title ≤ 10 characters
+- Company Size < 50000
+- Chart to be visible only between 3–5 PM IST
+
+
+ Data Cleaning (Kaggle)
+- Removed nulls and duplicates
+- Applied all filters
+- Exported as `task1_cleaned.csv`
+
+
+Chart Creation (Tableau)
+- Chart Type: Bar chart
+- X-axis: Work Type (Intern)
+- Y-axis: Preference
+- Added note to simulate time constraint
+
+ Files in This Repo
+- Kaggle cleaning notebook
+- Cleaned CSV
+- Tableau `.twbx` dashboard
+- Screenshot of dashboard
