@@ -1,0 +1,29 @@
+Task 2 
+1. Objective
+The primary objective of this task was to draw a chart to analyze job postings based on a very specific set of criteria.
+The goal was to identify and visualize male mechanical engineer jobs with a salary greater than $50,000, located in Asian countries, with a work type of either full-time or part-time.
+These jobs also had to be with a company size less than 50,000, have more than 5 years of experience, and have been posted on the 'idealist' job portal.
+The final dashboard element was required to be visible only between 3 PM and 5 PM IST.
+
+2. Methodology
+The analysis was performed in Tableau by first connecting to the cleaned dataset, _task2_cleaned_FINAL.csv.
+A bar chart was created with Company on the Rows shelf and a Count (Distinct) of Job Id on the Columns shelf to count the number of job postings per company.
+A series of filters were then applied to this chart to narrow the dataset down to the specific criteria outlined in the problem statement.
+
+3. Filters Applied
+All of the following filters were applied to the data:
+
+Company Size: The filter was set to include companies with a size less than 50,000.
+Work Type: The filter was set to include Full time and Part time only.
+Preference: The filter was set to include only a male preference.
+Job Title: The filter was set to include only the title mechanical engineer.
+Experience: The filter was set to include an experience of more than 5 years.
+Clean Salary: The filter was set to include a salary of more than $50k.
+Job Portal: The filter was set to include only jobs from the idealist portal.
+Country: The filter was set to include jobs only from Asian countries.
+Time-Based Filter: A calculated field was created to ensure the chart is visible only between 3 PM and 5 PM IST.
+
+4. Key Finding
+After applying all of the required filters, the chart showed zero job postings.
+This indicates that there are no records in the provided dataset that meet all of the specific conditions outlined in the problem statement.
+This is a valid and crucial finding that directly answers the analysis question and should be documented as the final result for Task 2
