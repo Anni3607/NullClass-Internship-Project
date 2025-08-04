@@ -1,0 +1,18 @@
+Task 4: Analysis of Full-time Jobs in Africa
+
+Objective: The goal of this task was to create a chart that displays the exact location of job postings on a map. The job postings were filtered based on qualifications, work type, country, and other specific criteria.
+
+Filters Applied:
+* Qualification was filtered to B.tech, M.tech, and PhD.
+* Work type was filtered to Full time.
+* Countries were filtered to include only those on the African continent.
+* Job title was filtered to include only titles starting with the letter 'D'.
+* Preference was set to Male.
+* Company size was filtered to be more than 80,000.
+* Contact person was filtered to names starting with the letter 'A'.
+* Job portal was filtered to 'indeed'.
+* A time-based filter was applied for 3 PM IST to 6 PM IST.
+
+Chart Type: A map chart was used to show the location of the jobs based on latitude and longitude.
+
+Final Result: After applying all the specified filters, the map chart was blank. This result was confirmed by repeated testing, which showed that no records in the dataset met all the criteria simultaneously.
