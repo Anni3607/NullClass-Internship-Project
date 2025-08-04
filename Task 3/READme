@@ -1,0 +1,20 @@
+Task 3: Analysis of Data Engineer and Data Scientist Jobs
+
+Objective: The goal of this task was to create a chart of the top 10 companies hiring for Data Engineer roles with a Data Scientist job title. 
+The analysis was based on a set of specific and restrictive criteria.
+
+
+Filters Applied:
+* Role was filtered to Data Engineer.
+* Job Title was filtered to Data Scientist.
+* Countries were filtered to exclude Asian countries and any countries starting with the letter 'C'.
+* Preference was set to Female only.
+* Job Posting Date was filtered to be between January 1, 2023, and June 1, 2023.
+* Qualification was filtered to B.Tech.
+* Latitude was filtered to be below 10.
+* A time-based filter was applied for 3 PM IST to 5 PM IST.
+
+Chart Type: A bar chart was used for this analysis.
+
+Final Result: After applying all the specified filters, the chart was blank. Repeated and concise testing, including a cross-check with the raw data,
+confirmed that NO RECORDS in the dataset matched all the criteria. This indicates that no job postings that fit all the conditions were found in the provided data.
