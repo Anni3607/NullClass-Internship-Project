@@ -1,0 +1,21 @@
+Task 5: Analysis of Full-time B.Tech Jobs in India and Germany
+
+Objective: The goal of this task was to create a bar chart that compares the count of job postings in India and Germany for specific roles and qualifications. 
+The chart was required to have a color-coding scheme to distinguish between the two countries.
+
+Filters Applied:
+* Countries were filtered to only include India and Germany.
+* Qualification was filtered to B.tech.
+* Work type was set to Full time.
+* Experience was filtered to more than 2 years.
+* Job title was filtered to Data Scientist, Art Teacher, and AeroSpace Engineer.
+* Salary range was filtered to be more than $10k.
+* The job portal was set to indeed.
+* Preference was filtered to female.
+* Job posting date was filtered to be before August 1, 2023.
+* A time-based filter was applied for 3 PM IST to 5 PM IST.
+
+Chart Type: A bar chart was used to display the count of jobs per country. The chart was color-coded with orange for India and green for Germany.
+
+Final Result: The final chart shows the count of jobs for each country that met all the criteria.
+Based on the number of specific filters, a blank chart is a possible and valid finding, which would indicate that no job postings in the dataset matched all the conditions.
